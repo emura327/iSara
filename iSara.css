@@ -106,3 +106,26 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+.header {
+    height: 75px;
+    background-color: #fff  ;
+}
+
+.key-visual{
+    background-color: lightblue;
+}
+
+.main {
+    background-color: #fff;
+}
+
+.sec1 {
+    background-color: orange;
+}
+
+.logo img{
+    width: 120px;
+    height: 35px;
+}
+
