@@ -107,9 +107,35 @@ input, select {
     vertical-align:middle;
 }
 
+body{
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
+}
+
 .header {
     height: 75px;
     background-color: #fff  ;
+    text-align: right;
+}
+
+.header .inner {
+    position: relative;
+    width: 1170px;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+
+.header .logo {
+    position: absolute;
+    top: 7px;
+    left: 0;
+}
+.header .logo img {
+    position: relative;
+    top: 7px;
 }
 
 .key-visual{
@@ -125,7 +151,27 @@ input, select {
 }
 
 .logo img{
-    width: 120px;
-    height: 35px;
+    width: 130px;
+    height: 45px;
 }
+
+.btn{
+    display: inline-block;
+}
+
+.btn a {
+    display: block;
+    height: 45px;
+    padding: 0 40px;
+    background-color: #da6b64;
+    color: #fff;
+    line-height: 45px;
+    border-radius: 45px;
+    text-decoration: none;
+}
+
+.btn a:hover{
+    background-color: #d94940;
+}
+
 
