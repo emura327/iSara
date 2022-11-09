@@ -174,4 +174,13 @@ body{
     background-color: #d94940;
 }
 
+.footer{
+    background-color: #ececec;
+    font-size: 10px;
+    text-align: center;
+    padding: 40px 0 25px 0;
+}
 
+.footer p:first-of-type {
+    margin-bottom: 65px;
+}
