@@ -116,9 +116,12 @@ body{
 }
 
 .header {
+    position: fixed;
+    width: 100%;
     height: 75px;
     background-color: #fff  ;
     text-align: right;
+    z-index: 100;
 }
 
 .header .inner {
@@ -139,15 +142,82 @@ body{
 }
 
 .key-visual{
-    background-color: lightblue;
+    position: relative;
+    height: 500px;
+    background: url("iSara_images/main.jpg") no-repeat center center /cover;
+    /* center center の部分は上下　左右の位置(position)　/を入れるとbackground- sizeが入れられる */
 }
 
-.main {
-    background-color: #fff;
+.key-visual_ttl {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
 }
+
+.key-visual_ttl h2 {
+    font-size: 28px;
+    line-height: 2em;
+}
+
+.key-visual_ttl p {
+    font-size: 20px;
+    line-height: 1em;
+}
+
+.key-visual_logo {
+    margin-bottom: 40px;
+}
+
+.key-visual_logo img {
+    width: 300px;
+}
+
+
 
 .sec1 {
-    background-color: orange;
+    padding: 30px 0 90px ;
+    background-color: #EBB94D;
+    color: #fff;
+    text-align: center;
+}
+
+.sec1 h3 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.sec1 ul {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sec1 ul li + li {
+    margin-top: 35px;
+}
+
+.sec1 .notice {
+    display: inline-block;
+    font-size: 18px;
+    color: #c7254e;
+    background-color: #fff;
+    border-radius: 5px;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+
+.sec1 .btn {
+    margin: 45px 0 75px ;
+}
+
+.sec1 .btn a {
+    height: 104px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 104px;
+    padding: 0 280px;
+    border-radius: 52px;
 }
 
 .logo img{
@@ -174,6 +244,10 @@ body{
     background-color: #d94940;
 }
 
+.main {
+    padding-top: 75px;
+}
+
 .footer{
     background-color: #ececec;
     font-size: 10px;
@@ -183,5 +257,15 @@ body{
 
 .footer p:first-of-type {
     margin-bottom: 65px;
+}
+
+.footer a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #23527c;
+    text-decoration: underline;
 }
 
