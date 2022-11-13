@@ -400,6 +400,42 @@ body{
     font-weight: bold;
 }
 
+.sec5 {
+    padding: 60px 0 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.sec5 h3 {
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.sec5 h3 + p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.sec5 p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sec5 ul {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0;
+    list-style: none;
+}
+
+.sec5 li + li {
+    padding-left: 40px;
+}
+
+.sec5 li img {
+    width: 180px;
+}
+
 .logo img{
     width: 130px;
     height: 45px;
