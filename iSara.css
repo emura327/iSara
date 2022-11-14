@@ -411,6 +411,10 @@ body{
     font-size: 28px;
 }
 
+.sec5 span {
+    font-size: 16px;
+}
+
 .sec5 h3 + p {
     font-size: 20px;
     font-weight: normal;
@@ -436,8 +440,133 @@ body{
     width: 180px;
 }
 
-.sec5 {
+.sec6 {
+    padding: 50px 0 40px;
     background-color: #FEF5E0;
+    text-align: center;
+}
+
+.sec6 h3 span {
+    display: block;
+    font-size: 20px;
+}
+
+.sec6 ul {
+    list-style: none;
+    display: flex;
+}
+
+.sec6 li {
+    box-sizing: border-box;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: calc(100%/3);
+    padding: 15px;
+}
+
+.sec6 li h4 {
+    color: #EBB94D;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.sec6 li p {
+    text-align: left;
+    font-size: 16px;
+}
+
+.sec6 li img {
+    width: 100%;
+    order: -1;
+}
+
+.sec6_support {
+    padding: 40px 0 50px;
+    margin: 30px 0 40px;
+    background-color: #fff;
+    border: 2px solid #EBB94D;
+    border-radius: 5px;
+}
+
+.sec6_support h4 {
+    margin-bottom: 15px;
+    color: #EBB94D;
+    font-size: 28px;
+}
+
+.sec6_support p:first-of-type {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sec6_support p:last-of-type {
+    font-weight:bold;
+    font-size: 16px;
+}
+
+.sec6_support + p {
+
+    padding:  0 70px;
+}
+
+.sec7 {
+    background: url(iSara_images/teacherbg.jpg) no-repeat center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0 40px;
+}
+
+.sec7 h3 {
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.sec7 h3 + p {
+    margin-bottom: 10px;
+    font-size: 16px ;
+    font-weight: bold;
+}
+
+.sec7_members {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.sec7_members li {
+    width: calc((100% - 60px)/3);
+}
+
+.member_pic img {
+    border-radius: 50%;
+}
+
+.member_pic {
+    position: relative;
+    bottom: -35px;
+}
+
+.member_detail {
+    box-sizing: border-box;
+    height: 396px;
+    font-size: 16px;
+    padding: 40px 50px 50px ;
+    border: 3px solid;
+}
+
+.member_detail h4 {
+    margin-bottom: 10px;
+}
+
+.member_detail h4 span {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.member_detail p {
+    text-align: left;
 }
 
 .logo img{
