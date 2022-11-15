@@ -131,8 +131,11 @@ body{
 
 .header .inner {
     position: relative;
-    width: 1170px;
     padding: 15px 0;
+}
+
+.inner {
+    width: 1170px;
     margin: 0 auto;
 }
 
@@ -618,3 +621,13 @@ body{
     text-decoration: underline;
 }
 
+@media (max-width: 768px){
+    .main {
+        display: none;
+    }
+
+    .inner {
+        width: 100%;
+    }
+    
+}
