@@ -149,6 +149,29 @@ body{
     top: 7px;
 }
 
+.header .btn_pc {
+    display: inline-block;
+}
+
+.header .btn_pc a {
+    display: block;
+    height: 45px;
+    padding: 0 40px;
+    background-color: #da6b64;
+    color: #fff;
+    line-height: 45px;
+    border-radius: 45px;
+    text-decoration: none;
+}
+
+.header .btn_pc a:hover{
+    background-color: #d94940;
+}
+
+.header .btn_sp {
+    display: none;
+}
+
 .key-visual{
     position: relative;
     height: 500px;
@@ -175,6 +198,25 @@ body{
     font-weight: bold;
 }
 
+.btn a {
+    display: block;
+    height: 45px;
+    padding: 0 40px;
+    background-color: #da6b64;
+    color: #fff;
+    line-height: 45px;
+    border-radius: 45px;
+    text-decoration: none;
+}
+
+.btn a:hover{
+    background-color: #d94940;
+}
+
+.main {
+    padding-top: 75px;
+}
+
 .key-visual_logo {
     margin-bottom: 40px;
 }
@@ -198,6 +240,7 @@ body{
 }
 
 .sec1 ul {
+    list-style: none;
     font-size: 21px;
     font-weight: bold;
 }
@@ -574,31 +617,12 @@ body{
 
 .logo img{
     width: 130px;
-    height: 45px;
 }
 
 .btn{
     display: inline-block;
 }
 
-.btn a {
-    display: block;
-    height: 45px;
-    padding: 0 40px;
-    background-color: #da6b64;
-    color: #fff;
-    line-height: 45px;
-    border-radius: 45px;
-    text-decoration: none;
-}
-
-.btn a:hover{
-    background-color: #d94940;
-}
-
-.main {
-    padding-top: 75px;
-}
 
 .footer{
     background-color: #ececec;
@@ -622,12 +646,136 @@ body{
 }
 
 @media (max-width: 768px){
-    .main {
+    section {
+        display: none;
+    }
+    .sec1 {
+        display: block !important;
+    }
+
+    .sp_only{
+        display: block;
+    }
+
+    .pc_only{
         display: none;
     }
 
     .inner {
         width: 100%;
+    }
+
+    .header {
+        height: 60px;
+    }
+
+    .header .inner {
+        height: 100%;
+        padding: 0;
+    }
+
+    .header .btn_pc {
+        display: none;
+    }
+    
+    .header .btn_sp {
+        display: block;
+    }
+
+    .header .btn_sp {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        width: 75px;
+        height: 60px;
+        background-color: #da6b64;
+        text-align: center;
+    }        
+
+    .header .btn_sp a {
+        box-sizing: border-box;
+        display: block;
+        height: 100%;
+        font-size: 14px;
+        color: #fff;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    .header .btn_sp img {
+        vertical-align: bottom;
+        width: 20px;
+    }
+
+    .header .logo {
+        font-size: 10px;
+        left: 10px;
+        top: 8px;
+    }
+
+    .header .logo img {
+        position: absolute;
+        top: 14px;
+        width: 90px;
+    }
+
+    .main {
+        padding-top: 60px;
+    }
+
+    .key-visual {
+        height: 300px;
+        background: url(iSara_images/mainsp.jpg) no-repeat center center /cover;
+    }
+
+    .key-visual_ttl h2 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .key-visual_ttl p {
+        font-size: 15px;
+    }
+
+    .key-visual_logo {
+        margin: 25px 0 30px;
+    }
+
+    .sec1 {
+        padding: 15px 20px 70px;
+    }
+
+    .sec1 h3{
+        font-size: 15px;
+    }
+
+    .sec1 ul {
+        font-size: 15px;
+    }
+
+    .sec1 li + li {
+        margin-top: 20px;
+    }
+
+    .sec1 .notice {
+        font-size: 14px;
+    }
+
+    .sec1 .btn {
+        margin: 25px 0;
+        display: block;
+    }
+
+    .sec1 .btn a {
+        padding: 15px 0;
+        height: auto;
+        line-height: 1.5;
+        font-size: 20px;
+    }
+
+    .footer {
+        padding: 20px 0 5px;
     }
     
 }
