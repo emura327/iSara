@@ -280,7 +280,7 @@ body{
 .ttl_flame {
     position: relative;
     width: 830px;
-    padding: 40px;
+    padding: 40px 0;
     margin: 0 auto 40px;
     font-size: 28px;
 }
@@ -646,12 +646,12 @@ body{
 }
 
 @media (max-width: 768px){
-    section {
+    /* section { 
         display: none;
     }
-    .sec1 {
+    .sec1 ,.sec2,.sec3,.sec4,.sec5,.sec6{
         display: block !important;
-    }
+    }*/
 
     .sp_only{
         display: block;
@@ -772,6 +772,49 @@ body{
         height: auto;
         line-height: 1.5;
         font-size: 20px;
+    }
+
+    .ttl_flame {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .sec2 {
+        padding:  30px 20px 80px;
+        font-size: 16px;
+        background: url(iSara_images/introbottom.jpg) no-repeat center bottom/contain #fff;
+    }
+
+    .sec3_skills ul {
+        flex-wrap: wrap;
+    }
+
+    .sec4 ul {
+        flex-direction: column;
+    }
+    
+    .sec4 li {
+        width: 100%;
+    }
+
+    .sec5 li img {
+        width: 50px;
+    }
+
+    .sec6 ul {
+        flex-direction: column;
+    }
+    
+    .sec6 li {
+        width: 100%;
+    }
+
+    .sec7_members {
+        flex-direction: column;
+    }
+    
+    .sec7_members li {
+        width: 100%;
     }
 
     .footer {
