@@ -531,9 +531,22 @@ body{
     font-size: 16px;
 }
 
-.sec6 li img {
+.sec6 li .pic {
     width: 100%;
+    height: 180px;
     order: -1;
+}
+
+.sec6 li:first-child .pic{
+    background: url(iSara_images/learnfromfreelancer.jpg) no-repeat center/cover;
+}
+
+.sec6 li:nth-child(2) .pic{
+    background: url(iSara_images/learnfromprojects.jpg) no-repeat center/cover;
+}
+
+.sec6 li:last-child .pic{
+    background: url(iSara_images/actuallyfree.jpg) no-repeat center/cover;
 }
 
 .sec6_support {
@@ -786,6 +799,7 @@ body{
     .ttl_flame {
         width: 100%;
         font-size: 18px;
+        padding: 20px 0;
         margin-bottom: 10px;
     }
 
@@ -878,10 +892,18 @@ body{
         padding: 20px 0;
     }
 
+    .sec5 {
+        padding: 40px 0 30px;
+    }
+
     .sec5 h3 {
         font-size: 18px;
     }
-    
+
+    .sec5 span {
+        font-size: 12px;
+    }
+
     .sec5 h3 + p {
         font-size: 15px;
     }
@@ -890,8 +912,27 @@ body{
         font-size: 12px;
     }
 
+    .sec5 ul {
+        padding: 0px 50px;
+        justify-content: space-between;
+        margin: 5px 0;
+    }
+
+    .sec5 li {
+        margin: 10px;
+    }
+    
+    .sec5 li + li {
+        padding-left: 0;
+    }
+
     .sec5 li img {
-        width: 50px;
+        width: 100%;
+        max-width: 120px;
+    }
+
+    .sec6 {
+        padding: 30px 20px 40px;
     }
 
     .sec6 ul {
@@ -900,22 +941,36 @@ body{
     
     .sec6 li {
         width: 100%;
+        padding: 10px 0;
+    }
+
+    .sec6 li .pic {
+        height: 120px;
     }
 
     .sec6 h3 span {
         font-size: 15px;
+        margin-bottom: 15px;
     }
     
     .sec6 li h4 {
         font-size: 15px;
+        width: 100%;
     }
     
     .sec6 li p {
         font-size: 12px;
+        padding: 0 15px;
+    }
+
+    .sec6_support {
+        margin: 20px 0 15px;
+        padding: 15px;
     }
     
     .sec6_support h4 {
         font-size: 18px;
+        margin-bottom: 10px;
     }
     
     .sec6_support p:first-of-type {
@@ -928,6 +983,11 @@ body{
     
     .sec6_support + p {
         font-size: 12px;
+        padding: 0;
+    }
+
+    .sec7 {
+        padding: 65px 10px 20px;
     }
 
     .sec7_members {
@@ -940,14 +1000,32 @@ body{
 
     .sec7 h3 {
         font-size: 18px;
+        margin-bottom: 35px;
     }
     
     .sec7 h3 + p {
         font-size: 12px;
     }
+
+    .member_pic img {
+        width: 100%;
+    }
+    
+    .member_pic {
+        width: 120px;
+        margin: 0 auto;
+        bottom: -40px;
+    }
     
     .member_detail {
         font-size: 12px;
+        height: auto;
+        padding: 40px 10px 15px;
+    }
+    
+
+    .member_detail h4 span {
+        margin-bottom: 10px;
     }
 
     .footer {
