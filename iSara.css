@@ -637,6 +637,47 @@ body{
     text-align: left;
 }
 
+.sec8 {
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.sec8::before {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    content: 'Q&A';
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #EBB94D;
+    line-height: 80px;
+    font-size: 14px;
+    transform: translate(-50%,0);
+}
+
+.sec8 .ttl_flame {
+    margin-bottom: 0;
+}
+
+.sec8 .ttl_flame::before,.sec8 .ttl_flame::after {
+    border-color: #fff;
+}
+.sec8_upper{
+    padding: 120px 0 40px;
+    background-color: #EBB94D;
+}
+
+.sec9 {
+    text-align: center;
+}
+
+.sec10 {
+    background-color: #fff;
+}
+
 .logo img{
     width: 130px;
 }
