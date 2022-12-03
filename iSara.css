@@ -656,18 +656,96 @@ body{
     line-height: 80px;
     font-size: 14px;
     transform: translate(-50%,0);
+    z-index: 1;
 }
 
 .sec8 .ttl_flame {
     margin-bottom: 0;
+    color: #fff;
 }
 
 .sec8 .ttl_flame::before,.sec8 .ttl_flame::after {
     border-color: #fff;
 }
 .sec8_upper{
+    position: relative;
     padding: 120px 0 40px;
     background-color: #EBB94D;
+}
+
+.sec8_upper::after {
+    content: '';
+    bottom: -50px;
+    position: absolute;
+    display: inline-block;
+    border: 25px solid transparent;
+    border-top: 25px solid #EBB94D;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sec8_lower {
+    padding: 50px 0  60px;
+}
+
+.sec8_lower h4 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.sec8_lower h4 span {
+    display: block;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.sec8_lower > p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.sec8_voice {
+    list-style: none;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.sec8_voice li + li {
+    margin-top: 40px;
+}
+
+.voice_pic {
+    box-sizing: border-box;
+    width: 240px;
+    height: 240px;
+    border:2px solid #EBB94D;
+}
+
+.voice_text {
+    box-sizing: border-box;
+    width: calc(100% - 240px);
+    padding: 20px 30px;
+    text-align: left;
+    font-size: 18px;
+    color: #777;
+}
+
+.voice_text .name {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+
+.voice_pic img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.sec8_voice li {
+    display: flex;
 }
 
 .sec9 {
@@ -1068,7 +1146,29 @@ body{
     .member_detail h4 span {
         margin-bottom: 10px;
     }
+/* ここから */
+    .sec8_voice {
+        width: 100%;
+    }
 
+    .sec8_voice li {
+        align-items: flex-start;
+    }
+
+    .voice_pic {
+        width: 30%;
+        height: auto;
+    }
+
+    .voice_text {
+        width: 70%;
+        height: auto;
+        padding: 0 0 0 15px;
+    }
+
+    .sec10 h4 img {
+        width: 100%;
+    }
     .footer {
         padding: 20px 0 5px;
     }
