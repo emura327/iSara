@@ -752,6 +752,29 @@ body{
     text-align: center;
 }
 
+.sec9_upper {
+    padding: 60px 0 80px;
+    background: url(iSara_images/classbg.jpg) no-repeat center/cover;
+}
+
+.sec9_upper h3 {
+    color: #fff;
+}
+
+.sec9_upper > p {
+    color: #fff;
+}
+
+.sec9_lerning > div {
+    background-color: #fff;
+}
+
+.sec9_lower {
+    padding: 40px 0;
+    background-color: #056ea9;
+    color: #fff;
+}
+
 .sec10 {
     background-color: #fff;
 }
