@@ -813,7 +813,18 @@ body{
 
 
 .sec10 {
+    padding: 60px 0 0;
     background-color: #fff;
+    text-align: center;
+}
+
+.sec10_flow{
+    background-color: #FEF5E0;
+    list-style: none;
+}
+
+.flow_detail {
+    text-align: left;
 }
 
 .logo img{
